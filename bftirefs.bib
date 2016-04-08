@@ -1,0 +1,633 @@
+@STRING{AMS 	= "Amer.\ Meteor.\ Soc."}
+@STRING{AGU 	= "Amer.\ Geophys.\ Union"}
+@STRING{AIP 	= "Amer. Inst. Phys."}
+@STRING{ADGEO     = "Adv.\ Geosci."}
+@STRING{AFM       = "Agric.\ For.\ Meteor."}
+@STRING{AM        = "Ann.\ Meteor."}
+@STRING{AN        = "Astrophys.\ Norv."}		% Astrophysica Norvegica
+@STRING{AO        = "Atmos.--Ocean"}			% Atmosphere--Ocean, published by Canadian Meteorological Society (CMOS)
+@STRING{AR        = "Atmos.\ Res."}			% Atmospheric Research
+@STRING{ARFM      = "Annu.\ Rev.\ Fluid Mech."}
+@STRING{AUMET     = "Aust.\ Meteor.\ Mag."}
+@STRING{BAMS      = "Bull.\ Amer.\ Meteor.\ Soc."}
+@STRING{CAP       = "Contrib.\ Atmos.\ Phys."}
+@STRING{CC        = "Climate Change"}      % Climate Change 
+@STRING{CCH       = "Climatic Change"}			% Climatic Change
+@STRING{CDYN      = "Climate Dyn."}
+@STRING{CHAOS     = "Chaos"}
+@STRING{COL       = "Collier's"}
+@STRING{CRS       = "Cont.\ Shelf Res."}
+@STRING{DAO       = "Dyn.\ Atmos.\ Oceans"}
+@STRING{ECO       = "Ecology"}
+@STRING{EI        = "Earth Interact."}
+@STRING{GA        = "Geophysica"}			% Geophysica, published by Geophysical Society of Finland 
+@STRING{GEOMAG    = "Geophys.\ Mag."}
+@STRING{GN        = "Geophys.\ Norv."}			% Geophysica Norvegica
+@STRING{GRL       = "Geophys.\ Res.\ Lett."}
+@STRING{GEOINT    = "Geofis.\ Int."}			% Geofisica Internacional (Mexican journal -- vols. 3--5 contained proceedings from a hurricane conference
+@STRING{GEOPUB    = "Geofys.\ Publ."}
+@STRING{GPC       = "Global Planet.\ Change"}
+@STRING{HP        = "Health Phys."}
+@STRING{IAOP      = "Izv.\ Atmos.\ Ocean.\ Phys.\ (Engl.\ Transl.)"}
+@STRING{IJC       = "Int.\ J.\ Climatol."}
+@STRING{JAM       = "J.\ Appl.\ Meteor."}		% renamed to name below in 2006
+@STRING{JAMC      = "J.\ Appl.\ Meteor.\ Climatol."}  	% Journal of Applied Meteorology and Climatology (this journal used to be called the Journal of Applied Meteorology before 2006)
+@STRING{JAS       = "J.\ Atmos.\ Sci."}
+@STRING{JAOT      = "J.\ Atmos.\ Oceanic Technol."}
+@STRING{JCAM      = "J.\ Climate Appl.\ Meteor."}	% from 1983--87, now JAMC
+@STRING{JCLI      = "J.\ Climate"}
+@STRING{JCR       = "J.\ Coastal Res."}
+@STRING{JFM       = "J.\ Fluid\ Mech."}
+@STRING{JEM       = "J.\ Eng.\ Math."}			% Journal of Engineering Mathematics
+@STRING{JGR       = "J.\ Geophys.\ Res."}
+@STRING{JHM       = "J.\ Hydrometeor."}
+@STRING{JMS       = "J.\ Mar.\ Syst."}
+@STRING{JM        = "J.\ Meteor."}
+@STRING{JMR       = "J.\ Mar.\ Res."}
+@STRING{JMSJ      = "J.\ Meteor.\ Soc.\ Japan"}
+@STRING{JPO       = "J.\ Phys.\ Oceanogr."}
+@STRING{JOCEAN    = "J.\ Oceanogr."}			% Journal of Oceanography
+@STRING{JOSJ      = "J.\ Oceanogr.\ Soc.\ Japan"}
+@STRING{JSE       = "J.\ Struct.\ Eng."}	% Journal of Structural Engineering at ASCE
+@STRING{JTM       = "J.\ Tropical Meteor."}
+@STRING{JWEIA     = "J.\ Wind Eng.\ Ind.\ Aerodyn."}
+@STRING{MA        = "Meteor.\ Appl."}
+@STRING{MAP       = "Meteor.\ Atmos.\ Phys."}
+@STRING{METMON    = "Meteor.\ Monogr."}
+@STRING{METZEIT   = "Meteor.\ Z."}
+@STRING{MWL       = "Mar.\ Wea.\ Log"}
+@STRING{MWR       = "Mon.\ Wea.\ Rev."}
+@STRING{NAT       = "Nature"}
+@STRING{NHR       = "Nat.\ Hazards Rev."}
+@STRING{NWD       = "Natl.\ Weather Dig."}
+@STRING{OA        = "Oceanol. Aeta"}
+@STRING{OM        = "Ocean Modelling"}
+@STRING{OCEAN     = "Oceanography"}                	% a quarterly journal of The Oceanography Society
+@STRING{PAG       = "Pure Appl.\ Geophys."}
+@STRING{PF        = "Phys.\ Fluids"}
+@STRING{PHYSD     = "Physica D"}
+@STRING{PMG       = "Pap.\ Meteor.\ Geophys."}	% Papers in Meteorology and Geophysics
+@STRING{PNAS      = "Proc.\ Natl.\ Acad.\ Sci.\ (USA)"}
+@STRING{PRE       = "Phys.\ Rev.\ E"}
+@STRING{PRSA      = "Proc.\ Roy.\ Soc."}
+@STRING{PT        = "Phys.\ Today"}
+@STRING{PTRS      = "Philos.\ Trans.\ Roy.\ Soc.\ London"}
+@STRING{QJRMS     = "Quart.\ J.\ Roy.\ Meteor.\ Soc."}
+@STRING{RGEO      = "Rev. Geophys."}
+@STRING{SCI       = "Science"}
+@STRING{SOLA      = "SOLA"}				% Scientific Online Letters on the Atmosphere
+@STRING{TAGU      = "Eos, Trans.\ Amer.\ Geophys.\ Union"}
+@STRING{TELLUS    = "Tellus"}
+@STRING{TCFD      = "Theor.\ Comput.\ Fluid Dyn."}
+@STRING{WEA       = "Weather"}
+@STRING{WW        = "Weatherwise"}
+@STRING{WF        = "Wea.\ Forecasting"}
+@STRING{WMOB      = "WMO Bull."}
+
+
+@book{Kopriva2009,
+	author = "D. Kopriva",
+	title = "Implementing spectral methods for partial differential equations",
+	publisher= "Springer",
+	volume = "33",
+	year = "2009",
+}
+@manual{KoprivaSpecMesh,
+   title = {SpecMesh User Manual},
+   author = {{D.A. Kopriva}},
+   organization = {Department of Mathematics, The Florida State University},
+   year = {2014},
+}
+@manual{Blender,
+   title = {Blender - a 3D modelling and rendering package},
+   author = {{Blender Online Community}},
+   organization = {Blender Foundation},
+   address = {Blender Institute, Amsterdam},
+   year = {2015},
+   url = {http://www.blender.org},
+}
+@online{BlakeUSGS,
+  author = {{U.S.  Geological Survey}},
+  title = {{U.S. EEZ Atlantic Continental Margin GLORIA :GLORIA Geology Interpretation}},
+  year = 2013,
+  url = {http://coastalmap.marine.usgs.gov/gloria/eastcst/geology.html},
+  urldate = {2015-09-21}
+}
+@online{BlakeNOAA,
+  author = {{National Oceanic and Atmospheric Administration}},
+  title = {{Coast and Geodetic Survey ships : George S. Blake}},
+  year = 2006,
+  url = {http://www.history.noaa.gov/ships/blake.html},
+  urldate = {2015-09-21}
+}
+@book{Batchelor1967,
+    author    = {G.K. Batchelor},
+    title     = {An introduction to Fluid Dynamics},
+    publisher ={Cambridge University Press},
+    edition = {$3^{rd}$},
+    year      = {2000},
+}
+
+
+
+@article{Schoonover2015,
+	author = "J. Schoonover and W. Dewar and N. Wiender and J. Gula and J. McWilliams and J. Molemaker and S. Bates and G. Danabasoglu and S. Yeager",
+	title = "North Atlantic Barotropic Vorticity Balances in Numerical Models",
+	journal = JPO,
+    volume = "46",	
+	year = "2015",
+	pages = "289--303",
+}
+
+
+@book{Kundu2008,
+    author    = {P.K. Kundu and I.M. Cohen},
+    title     = {Fluid Mechanics},
+    publisher ={Academic Press},
+    edition = {$4^{th}$},
+    year      = {2008},
+}
+
+% /////////////////////////////////////// Software //////////////////////////////////////////////////////
+
+@unpublished{schoonoverSEM,
+	author	= "J. Schoonover",
+	title	= "{Spectral Element Libraries in Fortran (SELF)}",
+	year	= "2016",
+	month	= "April",
+	note	= "Unpublished software manual \textit{(www.numeriphy.com/self.html)}",
+}
+
+@article{Johnson2011,
+	author = "E.R. Johnson and J.T. Rhodney",
+	title = "Spectral methods for coastal trapped waves",
+	journal= "Continental Shelf Research",
+	volume = "31",
+	year = "2011",
+	pages = "1481--1489",
+}
+
+	
+
+
+% //////////////////////////// General Shelf Wave Theory and Application ////////////////////////////////
+
+
+
+@unpublished{ChapmanRizzoli1989,
+	author	= "D.C. Chapman and P. Malanotte-Rizzoli",
+	title	= "Wave motions in the ocean",
+	year	= "1989",
+	month	= "August",
+	note	= "\textit{http://oxbow.sr.unh.edu/ChapmanRizzoli/Wave\_Motions\_in\_the\_Ocean.html}",
+}
+
+@article{Hughes1986,
+	author = "R.L. Hughes",
+	title = "On the role of criticaliity in coastal flows over irregular bottom topography",
+	journal= "Dyn. of Atmos. and Oceans",
+	volume = "10",
+	year = "1986",
+	pages = "129--147",
+}
+
+@article{Huthnance1978,
+	author = "J.M. Huthnance",
+	title = "On coastal trapped waves: analysis and numerical calculation by inverse iterations",
+	journal= JPO,
+	volume = "8",
+	year = "1978",
+	pages = "74--92",
+}
+
+@article{Huthnance1975,
+	author = "J.M. Huthnance",
+	title = "On trapped waves over a continental shelf",
+	journal= "Jour. Fluid Mech.",
+	volume = "69",
+	year = "1975",
+	pages = "689--704",
+}
+
+@article{Rhines1970,
+	author = "P.B. Rhines",
+	title = "Edge-, bottom-, and Rossby waves in a rotating stratified fluid",
+	journal= "Geophysical Fluid Dynamics",
+	volume = "1",
+	year = "1970",
+	pages = "273--302",
+}
+
+@article{Buchwald1968,
+	author = "V.T. Buchwald and J.K. Adams",
+	title = "The propagation of continental shelf waves",
+	journal= "Proc. Roy. Soc. A.",
+	volume = "305",
+	year = "1968",
+	pages = "235--250",
+}
+
+
+% //////////////////////// Energetics of and General Flow-topography interactions ///////////////////////
+
+@article{Gula2015,
+	author = "J. Gula and M. J. Molemaker and J.C.  McWilliams",
+	title = "{Gulf Stream} dynamics along the Southeastern U.S. Seaboard",
+	journal= JPO,
+	volume = "45",
+	year = "2015",
+	pages = "690--715",
+}
+
+@article{Lozier2005,
+	author = "M.S. Lozier and M.S.C. Reed",
+	title = "{The influence of Topography on the Stability of Shelfbreak Fronts}",
+	journal= JPO,
+	volume = "35",
+	year = "2005",
+	pages = "1023--1036",
+}
+
+@article{Stern1998,
+	author = {M.E. Stern},
+	title = {Separation of a density current from the bottom of a continental shelf},
+	journal=JPO,
+	volume = 28,
+	year = {1998},
+	pages = {2040--2049},
+}
+
+@article{Xue1992,
+	author = "H. Xue and G. Mellor ",
+	title = "{Instability of the Gulf Stream Front in the South Atlantic Bight}",
+	journal= JPO,
+	volume = "23",
+	year = "1992",
+	pages = "2326--2341",
+}
+
+
+@article{Stern1990,
+	author = "M.E. Stern and J.A. Whitehead",
+	title = "Separation of a boundary jet in a rotating fluid",
+	journal= JFM,
+	volume = "217",
+	year = "1990",
+	pages = "41--69",
+}
+@article{Dewar_Bane1985,
+	author = {W.K. Dewar and J.M. Bane},
+	title = {Subsurface Energetics of the {Gulf Stream} near the {Charleston Bump}},
+	journal=JPO,
+	volume = 15,
+	year = {1985},
+	pages = {1771--1789},
+}
+@article{Brooks_Bane1978,
+	author = {D.A. Brooks and J.M. Bane},
+	title = {{Gulf Stream} deflection by a bottom feature off {Charleston, South Carolina}},
+	journal="Science",
+	volume = 201,
+	year = {1978},
+	pages = {1225--1226},
+}
+
+
+
+% ////////////// Balanced to Unbalanced motions /////////////////////////////////////////////////////////
+@article{Hogg2011,
+	author = "A. McC. Hogg and W.K Dewar and P. Berloff and M. L. Ward",
+	title = "Kelvin wave hydraulic control induced by interactions between vortices and topography",
+	journal= JFM,
+	volume = "687",
+	year = "2011",
+	pages = "194--208",
+}
+
+@article{Dewar2010,
+	author = "W.K. Dewar and A. McC. Hogg",
+	title = "Topographic inviscid dissipation of balanced flow",
+	journal= OM,
+	volume = "32",
+	year = "2010",
+	pages = "1--13",
+}
+
+@article{Federov1996,
+	author = "A. V. Federov and W.K. Melvillle",
+	title = "Hydraulic jumps at boundaries in rotating fluids",
+	journal= JFM,
+	volume = "324",
+	year = "1996",
+	pages = "55--82",
+}
+
+
+
+@article{Nof1985,
+	author = "D. Nof",
+	title = "Geostrophic shock waves",
+	journal= JPO,
+	volume = "16",
+	year = "1985",
+	pages = "886--901",
+}
+% ///////////////////////////////////////////////////////////////////////////////////////////////////////
+%/////////////////// Gulf Stream position and NE U.S. and NW Europe climate /////////////////////////////
+
+@article{Talandier2014,
+	author = "C. Talandier and J. Deshayes and A.M. Treguier and X. Capet and R. Benshila and L. Debreu and R. Dussin and J.M Molines and G. Madec",
+	title = "Improvements of simulated {Western North Atlantic} current system and impacts on the {AMOC}",
+	journal= OM,
+	volume = "76",
+	year = "2014",
+	pages = "1--19",
+}
+
+@article{Gawarkiewicz2012,
+	author = "G. G. Gawarkiewicz and R.E. Todd and A.J. Plueddemann and M. Andres and J.P. Manning ",
+	title = "{Direct interaction between the Gulf Stream and the shelfbreak south of New England}",
+	journal= "Scientific Reports",
+	volume = "2:553",
+	year = "2012",
+	doi = {10.1038/srep00553},
+	pages = "1--6",
+}
+
+@article{Kaspi_Schneider2011,
+	author = "Y. Kaspi and T. Schneider",
+	title = "Winter cold of eastern continental boundaries induced by warm ocean waters",
+	journal= "Nature",
+	volume = "471",
+	year = "2011",
+	pages = "621--624",
+}
+
+@article{Kelly_Dong2004,
+	author = "K. Kelly and S. Dong",
+	title = "The relationship of western boundary current heat transport and storage to midlatitude ocean-atmosphere interaction",
+	journal= "Geoph. Mon. Series",
+	volume = "147",
+	year = "2004",
+	pages = "347--363",
+}
+
+@article{Rhines_Hakkinen2003,
+	author = {P. Rhines and S. H\"{a}kkinen},
+	title = "Is the oceanic heat transport in the North Atlantic irrelevant to the climate in Europe?",
+	journal= "ASOF Newsletter",
+	volume = "1",
+	year = "2003",
+	pages = "13--16",
+}
+
+% ///////////////////// Ocean model sensitivities and parameterizations ///////////////////////////////
+
+@article{Fox-Kemper2011,
+	author = {B. Fox-Kemper and G. Danabasoglu and R. Ferrari and S.M. Griffies and R.W. Hallberg and M.M. Holland and M.E. Maltrud and S. Peacock and B.L. Samuels},
+	title = {Parameterization of mixed layer eddies, {Part III : Implementation and impact in global ocean climate simulations} },
+	journal=OM,
+	volume = 39,
+	year = {2011},
+	pages = {61--78},
+	doi = {10.1016/j.ocemod.2010.09.002}
+}
+
+@article{Danabasoglu2010,
+	author = {G. Danabasoglu and W. G. Large and B.P. Briegleb},
+	title = {Climate impacts of parameterized {Nordic Sea} overflows},
+	journal=JGR,
+	volume = 115,
+	year = {2010},
+	pages = {C11005},
+	doi = {10.1029/2010JC006243}
+}
+
+@article{Jayne2009,
+	author = {S.R. Jayne},
+	title = {The impact of abyssal mixing parameterizations in an ocean general circulation model },
+	journal=JPO,
+	volume = 39,
+	year = {2009},
+	pages = {1756--1775},
+}
+
+@article{Jochum2009,
+	author = {M. Jochum},
+	title = {Impact of latitudinal variations in vertical diffusivity on climate simulations},
+	journal=JGR,
+	volume = 114,
+	year = {2009},
+	pages = {C01010},
+	doi = {10.1029/2008JC005030}
+}
+
+
+
+@article{Danabasoglu2008,
+	author = {G. Danabasoglu and R. Ferrari  and J.C. McWilliams},
+	title = {Sensitivity of an ocean general circulation model to a parameterization of near-surface eddy fluxes},
+	journal=JCLI,
+	volume = 21,
+	year = {2008},
+	pages = {1192--1208},
+}
+
+
+@article{Ferrari2008,
+	author = {R. Ferrari and J.C. McWilliams and V.M Canuto and M. Dubovikov},
+	title = {Pameterization of Eddy Fluxes near Ocean Boundaries},
+	journal=JCLI,
+	volume = 21,
+	year = {2008},
+	pages = {2770--2789},
+}
+
+@article{Fox-Kemper2008,
+	author = {B. Fox-Kemper and R. Ferrari and R. Hallberg},
+	title = {Parameterization of mixed layer eddies, {Part I : Theory and diagnosis} },
+	journal=JPO,
+	volume = 38,
+	year = {2008},
+	pages = {1145--1165},
+}
+
+@article{Danabasoglu2007,
+	author = {G. Danabasoglu and J. Marshall},
+	title = {Effects of vertical variations of thickness diffusivity in an ocean general circulation model},
+	journal=OM,
+	volume = 18,
+	year = {2007},
+	pages = {122--141},
+	doi = {10.1016/j.ocemod.2007.03.006}
+}
+
+
+@article{Bryan2006,
+	author = {F. O. Bryan and M.W. Hecht and R.D. Smith},
+	title = {Resolution convergence and sensitivity studies with {North Atlantic} circulation models. {Part I: The} western boundary current system},
+	journal=OM,
+	volume = 16,
+	year = {2006},
+	pages = {141--159},
+}
+
+@article{Malone2003,
+	author = "R.C. Malone and R.D. Smith and M.E. Maltrud and M.W. Hecht",
+	title = "Eddy-Resolving Ocean Modeling",
+	journal= "Los Alamos Science",
+	volume = "28",
+	year = "2003",
+	pages = "223--231",
+}
+
+@article{Adcroft2002,
+	author = {A. Adcroft and D. Marshall},
+	title = {How slippery are piecewise-constant coastlines in numerical ocean models?},
+	journal="Tellus",
+	volume = {50},
+	year = 2002,
+	pages = {95--108},
+}
+
+
+@article{Gent_McWilliams1990,
+	author = {P.R. Gent and J.C. McWilliams},
+	title = {Isopycnal mixing on ocean circulation models },
+	journal=JPO,
+	volume = 20,
+	year = {1990},
+	pages = {150--155},
+}
+% //////////////////////////////////////////////////////////////////////////////////////////////////
+
+@article{Veronis1976,
+	author = "G. Veronis",
+	title = "Model of world ocean circulation : {II}. Thermally driven, two-layer",
+	journal= JMR,
+	volume = "34",
+	year = "1976",
+	pages = "199--216",
+}
+
+@article{Eden_Olbers2010,
+	author = "C. Eden and D. Olbers",
+	title = "Why western boundary currents are diffusive: A link between bottom pressure torque and bolus velocity",
+	journal=OM,
+	volume = "32",
+	year = "2010",
+	pages = "14--24",
+}
+
+@article{Saunders1999,
+	author = "P.M. Saunders and A.C. Coward and B.A. deCuevas",
+	title = "Circulation of the Pacific Ocean seen in a global ocean model : Ocean circulation and climate advanced modelling project (OCCAM)",
+	journal=JGR,
+	volume = "104(C8)",
+	year = "1999",
+	pages = "18281--18299",
+}
+
+@article{Haynes_McIntyre1987,
+	author = "P.H. Haynes and M.E. McIntyre",
+	title = "{On the evolution of vorticity in the presence of diabatic heating and frictional or other forces}",
+	journal=JAS,
+	volume = "44",
+	year = "1987",
+	pages = "828--841",
+}
+@article{Marshall2000,
+	author = "J. Marshall and D. Jamous and J. Nilsson",
+	title = "{Entry, Flux, and Exit of Potential Vorticity in Ocean Circulation}",
+	journal=JPO,
+	volume = "31",
+	year = "2000",
+	pages = "777--789",
+}
+
+
+@article{Zhang_Vallis2006,
+	author = {R. Zhang and G.K. Vallis},
+	title = {The role of bottom vortex stretching on the path of the North Atlantic western boundary current and on the northern recirculation gyre},
+	journal=JPO,
+	volume = 37,
+	year = {2006},
+	pages = {2053--2080},
+}
+@article{Hughes2000,
+	author = {C.W. Hughes},
+	title = {A theoretical reason to expect inviscid western boundary currents in realistic oceans},
+	journal=OM,
+	volume = 2,
+	year = {2000},
+	pages = {73--83},
+}
+@article{Hughes_DeCuevas2001,
+	author = {C.W. Hughes and B.A. deCuevas},
+	title = {Why western boundary currents in realistic oceans are inviscid : A link between form stress and bottom pressure torques},
+	journal=JPO,
+	volume = 31,
+	year = {2001},
+	pages = {2871--2885},
+}
+@article{Chassignet2008,
+	author = {E.P. Chassignet and D.P. Marshall},
+	title = {Gulf stream separation in numerical ocean models},
+	journal={Geophys. Monograph Series},
+	volume = 177,
+	year = {2008},
+	pages = {39--61},
+}
+@article{Sarkisyan_Ivanov1971,
+	author = {A.S. Sarkisyan and V.F. Ivanov},
+	title = {Joint effect of baroclinicity and bottom relief as an important factor in the dynamics of sea currents},
+	journal={USSR Atmospheric and Oceanic Physics},
+	volume = 42,
+	year = {1971},
+	pages = {173--178},
+}
+@article{Holland1973,
+	author = {W.R. Holland},
+	title = {Baroclinic and topographic influences on the transport in western boundary currents},
+	journal={Geoph. Fluid Dyn.},
+	volume = 4,
+	year = {1973},
+	pages = {336--354},
+}
+
+
+@article{Stommel1948,
+	author = {H. Stommel},
+	title = {The westward intensification of wind-driven ocean currents},
+	journal=TAGU,
+	volume = 29,
+	year = {1948},
+	pages = {202--206},
+}
+@article{Munk1950,
+	author = {W. Munk},
+	title = {On the wind-driven ocean circulation},
+	journal=JM,
+	volume = 7,
+	year = {1950},
+	pages = {79--93},
+}
+
+
+@article{Gouretski_Koltermann2004,
+	author = {V.V. Gouretski and K.P. Koltermann},
+	title = { WOCE global hydrographic climatology },
+	journal={ Tech. Rep. },
+	volume = 35,
+	year = {2004},
+	pages = "",
+}
+
+@article{Jackson2006,
+	author = {L. Jackson and C. Hughes and R. Williams},
+	title = {Topographic control of basin and channel flows : The role of bottom pressure torques and friction},
+	journal=JPO,
+	volume = 36,
+	year = {2006},
+	pages = {1786--1805},
+}

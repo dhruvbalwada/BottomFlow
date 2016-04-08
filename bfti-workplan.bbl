@@ -1,0 +1,80 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Buchwald and Adams(1968)]{Buchwald1968}
+V.T. Buchwald and J.K. Adams.
+\newblock The propagation of continental shelf waves.
+\newblock \emph{Proc. Roy. Soc. A.}, 305:\penalty0 235--250, 1968.
+
+\bibitem[Chapman and Malanotte-Rizzoli(1989)]{ChapmanRizzoli1989}
+D.C. Chapman and P.~Malanotte-Rizzoli.
+\newblock Wave motions in the ocean.
+\newblock
+  \textit{http://oxbow.sr.unh.edu/ChapmanRizzoli/Wave\_Motions\_in\_the\_Ocean%
+.html}, August 1989.
+
+\bibitem[Dewar and Hogg(2010)]{Dewar2010}
+W.K. Dewar and A.~McC. Hogg.
+\newblock Topographic inviscid dissipation of balanced flow.
+\newblock \emph{Ocean Modelling}, 32:\penalty0 1--13, 2010.
+
+\bibitem[Gula et~al.(2015)Gula, Molemaker, and McWilliams]{Gula2015}
+J.~Gula, M.~J. Molemaker, and J.C. McWilliams.
+\newblock {Gulf Stream} dynamics along the southeastern u.s. seaboard.
+\newblock \emph{J.\ Phys.\ Oceanogr.}, 45:\penalty0 690--715, 2015.
+
+\bibitem[Hogg et~al.(2011)Hogg, Dewar, Berloff, and Ward]{Hogg2011}
+A.~McC. Hogg, W.K Dewar, P.~Berloff, and M.~L. Ward.
+\newblock Kelvin wave hydraulic control induced by interactions between
+  vortices and topography.
+\newblock \emph{J.\ Fluid\ Mech.}, 687:\penalty0 194--208, 2011.
+
+\bibitem[Hughes(1986)]{Hughes1986}
+R.L. Hughes.
+\newblock On the role of criticaliity in coastal flows over irregular bottom
+  topography.
+\newblock \emph{Dyn. of Atmos. and Oceans}, 10:\penalty0 129--147, 1986.
+
+\bibitem[Huthnance(1975)]{Huthnance1975}
+J.M. Huthnance.
+\newblock On trapped waves over a continental shelf.
+\newblock \emph{Jour. Fluid Mech.}, 69:\penalty0 689--704, 1975.
+
+\bibitem[Huthnance(1978)]{Huthnance1978}
+J.M. Huthnance.
+\newblock On coastal trapped waves: analysis and numerical calculation by
+  inverse iterations.
+\newblock \emph{J.\ Phys.\ Oceanogr.}, 8:\penalty0 74--92, 1978.
+
+\bibitem[Lozier and Reed(2005)]{Lozier2005}
+M.S. Lozier and M.S.C. Reed.
+\newblock {The influence of Topography on the Stability of Shelfbreak Fronts}.
+\newblock \emph{J.\ Phys.\ Oceanogr.}, 35:\penalty0 1023--1036, 2005.
+
+\bibitem[Rhines(1970)]{Rhines1970}
+P.B. Rhines.
+\newblock Edge-, bottom-, and rossby waves in a rotating stratified fluid.
+\newblock \emph{Geophysical Fluid Dynamics}, 1:\penalty0 273--302, 1970.
+
+\bibitem[Schoonover(2016)]{schoonoverSEM}
+J.~Schoonover.
+\newblock {Spectral Element Libraries in Fortran (SELF)}.
+\newblock Unpublished software manual \textit{(www.numeriphy.com/self.html)},
+  April 2016.
+
+\bibitem[Stern(1998)]{Stern1998}
+M.E. Stern.
+\newblock Separation of a density current from the bottom of a continental
+  shelf.
+\newblock \emph{J.\ Phys.\ Oceanogr.}, 28:\penalty0 2040--2049, 1998.
+
+\bibitem[Xue and Mellor(1992)]{Xue1992}
+H.~Xue and G.~Mellor.
+\newblock {Instability of the Gulf Stream Front in the South Atlantic Bight}.
+\newblock \emph{J.\ Phys.\ Oceanogr.}, 23:\penalty0 2326--2341, 1992.
+
+\end{thebibliography}
